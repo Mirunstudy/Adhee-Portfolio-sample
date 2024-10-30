@@ -69,10 +69,10 @@
     transition: 0.4s;
 }
 
-@media (max-width:768px) {
+@media (max-width:770px) {
     .services{
         align-items: start;
-        gap: 70px;
+        gap: 45px;
         margin: 20px 70px;
     }
     .services-title h1{
@@ -92,6 +92,9 @@
     .services-format h2{
         font-size: 28px;
     }
+    .services-format h3{
+        font-size: 24px;
+    }
     .services-format p{
         font-size: 18px;
         line-height: 32px;
@@ -103,6 +106,47 @@
     .services-container{
         grid-template-columns: 1fr 1fr ;
         gap: 30px;
+    }
+    
+}
+
+@media (max-width:450px) {
+    .services{
+        align-items: start;
+        gap:60px;
+        margin: 45px 60px;
+    }
+    .services-title h1{
+        padding: 0;
+        font-size: 45px;
+    }
+    .services-title img{
+        width: 73px;
+        right: 143px;
+        bottom: 28px;
+    }
+    .services-format{
+        gap: 8px;
+        padding: 18px;
+
+    }
+    .services-format h2{
+        font-size: 22px;
+    }
+    .services-format h3{
+        font-size: 18px;
+    }
+    .services-format p{
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 250px;
+    }
+    .services-readmore img{
+        width: 14px;
+    }
+    .services-container{
+        grid-template-columns: 1fr 1fr ;
+        gap: 20px;
     }
     
 }
